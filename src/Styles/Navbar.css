@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Navbar {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between; /*results in the logo and links being spaced apart*/
+  align-items: center;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 2rem;
+  width: 90%;
+  background-color: #cbd5f0f8;
+  color: rgb(0, 0, 0);
+}
+
+.Navbar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  /* padding: 2rem 2rem; */
+  font-size: 3rem;
+  color: #000000;
+}
+
+.Navbar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 2rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.Navbar-links a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.Navbar-links a:hover {
+  color: #0063f8;
+}
+
+.Navbar-links button {
+  background-color: #ffffff00;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Navbar-links button:hover {
+  color: #0063f8;
+}
+
+.Navbar-sign-in {
+  border: none;
+}
+
+.Navbar-sign-up:hover {
+  border-color: #0063f8;
+  /* color: #0063f8; */
+}
