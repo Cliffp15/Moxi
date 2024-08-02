@@ -49,7 +49,7 @@
 }
 
 .Navbar-links button {
-  background-color: #ffffff00;
+  background-color: #e70c0c00;
   color: rgb(0, 0, 0);
   font-size: 2rem;
   padding: 0.5rem 1rem;
@@ -57,15 +57,25 @@
   cursor: pointer;
 }
 
-.Navbar-links button:hover {
+/* .Navbar-links button:hover {
   color: #0063f8;
-}
+} */
 
 .Navbar-sign-in {
   border: none;
 }
 
-.Navbar-sign-up:hover {
+.Navbar-sign-up {
+  border: none;
+}
+
+.Navbar-sign-up button {
+  border: 2px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.Navbar-sign-up button:hover {
   border-color: #0063f8;
-  /* color: #0063f8; */
+  color: #0063f8;
 }

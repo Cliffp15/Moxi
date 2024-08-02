@@ -24,11 +24,14 @@ function Navbar() {
           <li>
             <a href="#">Blog</a>
           </li>
-          <li>
-            <button className="Navbar-sign-in">Sign in</button>
+          <li className="Navbar-sign-in">
+            <a href="#">Sign in</a>
+            {/* <button className="Navbar-sign-in">Sign in</button> */}
           </li>
-          <li>
-            <button className="Navbar-sign-up">Sign Up</button>
+          <li className="Navbar-sign-up">
+            {/* <a href="&">Sign up</a> */}
+
+            <button>Sign Up</button>
           </li>
         </ul>
       </div>
