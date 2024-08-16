@@ -17,6 +17,7 @@
     width: 90%;
     background-color: #f0d9cbf8;
     color: rgb(0, 0, 0);
+    z-index: 10;
   }
 
   .Navbar-logo {
