@@ -25,13 +25,18 @@ function Navbar() {
             <a href="#">Blog</a>
           </li>
           <li className="Navbar-sign-in">
-            <a href="#">Sign in</a>
+            <a href="#">
+              {" "}
+              <span className="Signs">Sign in</span>
+            </a>
             {/* <button className="Navbar-sign-in">Sign in</button> */}
           </li>
           <li className="Navbar-sign-up">
             {/* <a href="&">Sign up</a> */}
 
-            <button>Sign Up</button>
+            <button>
+              <span className="Signs">Sign Up</span>
+            </button>
           </li>
         </ul>
       </div>
