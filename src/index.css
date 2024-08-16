@@ -6,6 +6,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f5f5f5;
-  background: url("./Images/Lemon.png");
+
+  background-color: #000000;
+  /* background-attachment: fixed; */
+  /* background: url("./Images/Lemon.png"); */
+  /* background-size: cover; */
 }

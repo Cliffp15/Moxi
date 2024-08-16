@@ -6,32 +6,25 @@
 
 .Hero h2 {
   font-size: 18px;
-  color: #666;
+  color: #ffffff;
 }
 
 .Hero h1 {
   font-size: 36px;
-  color: #333;
+  color: #ffffff;
   margin-top: 10px;
 }
 
 .Hero img {
   position: absolute;
-  /* justify-content: center;
-  align-items: center; */
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: -10;
+  opacity: 0.5;
   /* font-size: 16px;
   color: #666;
   margin-top: 10px;
   width: 60%; */
 }
-
-/* .Hero-img img {
-  width: 100px;
-  height: 100px;
-  
-} */
