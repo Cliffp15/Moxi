@@ -10,24 +10,21 @@ function Navbar() {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#">Health</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#">Personal</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a href="#">Career</a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
-          </li>
-          <li>
-            <a href="#">Blog</a>
+            <a href="#">Finance</a>
           </li>
           <li className="Navbar-sign-in">
             <a href="#">
               {" "}
-              <span className="Signs">Sign in</span>
+              <span className="Signs">Sign-in</span>
             </a>
             {/* <button className="Navbar-sign-in">Sign in</button> */}
           </li>
@@ -35,7 +32,7 @@ function Navbar() {
             {/* <a href="&">Sign up</a> */}
 
             <button>
-              <span className="Signs">Sign Up</span>
+              <span className="Signs">Sign-Up</span>
             </button>
           </li>
         </ul>

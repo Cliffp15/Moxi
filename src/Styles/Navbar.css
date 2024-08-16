@@ -93,7 +93,7 @@
     border-radius: 10px;
     margin: auto;
     margin-top: 2rem;
-    width: 90%;
+    width: 95%;
     background-color: #fffffff8;
     color: rgb(0, 0, 0);
   }
@@ -144,6 +144,7 @@
   .Navbar-sign-in {
     border: none;
     color: #0088f8;
+    margin-left: 20px;
   }
 
   .Navbar-sign-up {
