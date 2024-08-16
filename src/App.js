@@ -1,4 +1,4 @@
-import HelloWorld from "./Component/HelloWorld";
+import HelloWorld from "./Component/Home";
 import Navbar from "./Component/Navbar";
 
 function App() {

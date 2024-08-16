@@ -1,0 +1,16 @@
+/* Hero section styles */
+.hero {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hero h2 {
+  font-size: 18px;
+  color: #666;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #333;
+  margin-top: 10px;
+}
