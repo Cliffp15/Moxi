@@ -1,16 +1,37 @@
 /* Hero section styles */
-.Hero {
-  text-align: center;
-  margin-top: 50px;
+
+@media screen and (min-width: 768px){
+  /* .Hero-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0rem;
+    width: 59%;
+    margin-bottom: 0rem;
+  } */
+  
+  .Hero {
+    /* position: absolute; */
+  text-align: right;
+  padding: 2rem 0rem 0rem 0rem;
+  width: 79%;
+  margin: auto;
+  margin-top: 1rem;
+
+  /* margin-top: 50px; */
 }
 
 .Hero h2 {
-  font-size: 18px;
+  position: relative;
+  font-size: 2rem;
+  font-weight:500;
   color: #ffffff;
 }
 
 .Hero h1 {
-  font-size: 36px;
+  position: relative;
+  word-wrap: break-word;
+  font-size: 9rem;
   color: #ffffff;
   margin-top: 10px;
 }
@@ -22,9 +43,20 @@
   width: 100%;
   height: 100%;
   z-index: -10;
-  opacity: 0.2;
-  /* font-size: 16px;
-  color: #666;
-  margin-top: 10px;
-  width: 60%; */
+  opacity: 0.4;
+  background-color: black;
+  
+}
+
+.Hero-Buttons button{
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  border-style: none;
+  color: #ffffff;
+  background-color: #45aafd;
+
+}
+
+
 }

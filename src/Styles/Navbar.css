@@ -87,13 +87,13 @@
   .Navbar {
     display: flex;
     /* justify-content: center; */
-    justify-content: space-between; /*results in the logo and links being spaced apart*/
+    justify-content:space-between; /*results in the logo and links being spaced apart*/
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0rem 3rem;
     border-radius: 10px;
     margin: auto;
-    margin-top: 2rem;
-    width: 95%;
+    margin-top: 1rem;
+    width: 79%;
     background-color: #fffffff8;
     color: rgb(0, 0, 0);
   }
@@ -102,19 +102,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 2rem;
+    margin-left: 0rem;
     /* padding: 2rem 2rem; */
     font-size: 3rem;
+    font-weight: bolder;
     color: #000000;
   }
 
   .Navbar-links {
     display: flex;
-    justify-content: center;
+    justify-content:  center;
     align-items: center;
-    gap: 3rem;
+    gap: 2.5rem;
     padding: 2rem 2rem;
-    font-size: 2rem;
+    font-size: 1rem;
     border-radius: 10px;
     list-style: none;
   }
@@ -131,7 +132,7 @@
   .Navbar-links button {
     background-color: #e70c0c00;
     color: rgb(0, 0, 0);
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 10px;
     cursor: pointer;

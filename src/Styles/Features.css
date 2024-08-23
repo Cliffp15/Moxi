@@ -1,0 +1,32 @@
+.Features-Container
+{
+    /* display: flex; */ /*keep this out to keep feature section in line with hero section
+    /* justify-content: space-between;
+    align-items: center; */
+    margin-top: 4rem;
+    padding: 2rem 0rem;
+    width: 100%;
+    margin-bottom: 0rem;
+    background-color: rgb(255, 115, 0);
+}
+
+
+.Feature-Intro-Section{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding: 2rem 0rem; */
+    width: 79%;
+    margin: auto;
+    margin-top: 0rem;
+    /* margin-top: 1rem; */
+  background-color: aqua;
+}
+  
+  .Feature-Section{
+    display: flex;
+    color: #ffffff;
+  background-color: rgb(0, 255, 26);
+    width: 79%;
+    margin: auto;
+  }
