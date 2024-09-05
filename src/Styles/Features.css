@@ -7,7 +7,7 @@
     padding: 2rem 0rem;
     width: 100%;
     margin-bottom: 0rem;
-    background-color: rgb(255, 115, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -23,10 +23,21 @@
   background-color: aqua;
 }
   
-  .Feature-Section{
+  .Feature-Services{
     display: flex;
     color: #ffffff;
   background-color: rgb(0, 255, 26);
     width: 79%;
     margin: auto;
+  }
+  .Feature-Description{
+    display: block;
+    color: #ffffff;
+    background-color: rgb(0, 255, 26);
+    width: 79%;
+    margin: auto;
+  }
+
+  .Feature-Description h2{
+    display: block;
   }

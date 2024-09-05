@@ -93,8 +93,9 @@
     border-radius: 10px;
     margin: auto;
     margin-top: 1rem;
+    margin-bottom: 4.5rem;
     width: 79%;
-    background-color: #fffffff8;
+    background-color: #ffffff;
     color: rgb(0, 0, 0);
   }
 
@@ -158,12 +159,13 @@
     border-radius: 10px;
   }
 
-  .Navbar-sign-up button:hover {
-    /* border-color: #0063f8; */
-    /* color: #0057f8; */
-  }
+  /* .Navbar-sign-up button:hover {
+    border-color: #0063f8;
+    color: #0057f8;
+  } */
 
   .Signs {
+    color: #45aafd;
     /* display: flex;
     justify-content: center;
     align-items: center;
@@ -172,7 +174,7 @@
     font-size: 2rem;
     border-radius: 10px;
     list-style: none; */
-    color: #45aafd;
+    
   }
 }
 
