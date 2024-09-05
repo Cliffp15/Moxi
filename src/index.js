@@ -5,6 +5,7 @@ import "./Styles/Navbar.css";
 import "./Styles/Home.css";
 import "./Styles/Features.css";
 import "./Styles/Services.css";
+import "./Styles/ServiceCards.css";
 import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
