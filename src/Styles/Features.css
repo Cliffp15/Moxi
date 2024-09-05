@@ -1,43 +1,73 @@
-.Features-Container
-{
-    /* display: flex; */ /*keep this out to keep feature section in line with hero section
+.Features-Container {
+  /* display: flex; */ /*keep this out to keep feature section in line with hero section
     /* justify-content: space-between;
     align-items: center; */
-    margin-top: 4rem;
-    padding: 2rem 0rem;
-    width: 100%;
-    margin-bottom: 0rem;
-    background-color: rgb(255, 255, 255);
+  margin-top: 4rem;
+  padding: 2rem 0rem;
+  width: 100%;
+  margin-bottom: 0rem;
+  background-color: rgb(255, 255, 255);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
-
-.Feature-Intro-Section{
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    /* padding: 2rem 0rem; */
-    width: 79%;
-    margin: auto;
-    margin-top: 0rem;
-    /* margin-top: 1rem; */
-  background-color: aqua;
+.Site-Intro-Section {
+  display: flex;
+  align-items: center;
+  width: 79%;
+  margin: auto;
+  margin-top: 0rem;
+  background-color: rgb(255, 255, 255);
 }
-  
-  .Feature-Services{
-    display: flex;
-    color: #ffffff;
-  background-color: rgb(0, 255, 26);
-    width: 79%;
-    margin: auto;
-  }
-  .Feature-Description{
-    display: block;
-    color: #ffffff;
-    background-color: rgb(0, 255, 26);
-    width: 79%;
-    margin: auto;
-  }
 
-  .Feature-Description h2{
-    display: block;
-  }
+.Site-Description {
+  display: block;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  width: 35%;
+  height: auto;
+}
+
+.Site-Description h2 {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  width: auto;
+}
+
+hr {
+  border: none;
+  height: 4px;
+  background-color: #088cf8;
+  width: 6rem;
+  margin-bottom: 2rem;
+}
+
+.Site-Description p {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.Site-Image {
+  display: block;
+  width: 25%;
+  height: 90%;
+  /* justify-items: stretch; */
+  background-color: #00000000;
+  margin-left: 2rem;
+  /* border-radius: 0.5rem;
+   */
+  border-radius: 1rem;
+}
+
+.Feature-img {
+  display: flex;
+  width: 100%;
+  height: 22rem;
+  /* margin-right: 2rem; */
+  /* margin-left: 2rem; */
+  /* margin-right: 0rem; */
+  /* justify-items: center;
+  align-items: center; */
+  border-radius: 1rem;
+}

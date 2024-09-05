@@ -1,6 +1,6 @@
 /* Hero section styles */
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   /* .Hero-Container{
     display: flex;
     justify-content: space-between;
@@ -9,63 +9,65 @@
     width: 59%;
     margin-bottom: 0rem;
   } */
-  
+
   .Hero {
     /* position: absolute; */
-  text-align: right;
-  padding: 2rem 0rem 0rem 0rem;
-  width: 79%;
-  height: auto;
-  margin: auto;
-  margin-top: 1rem;
+    text-align: right;
+    padding: 2rem 0rem 0rem 0rem;
+    width: 79%;
+    height: auto;
+    margin: auto;
+    /* margin-top: 1rem; */
+    /* margin-bottom: 2rem; */
+    /* margin-top: 50px; */
+  }
 
-  /* margin-top: 50px; */
-}
+  .Hero h2 {
+    position: relative;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #ffffff;
+    /* margin-bottom: 2rem; */
+    /* margin: 1rem 1rem 1rem 1rem; */
+  }
 
-.Hero h2 {
-  position: relative;
-  font-size: 2rem;
-  font-weight:500;
-  color: #ffffff;
-  /* margin-bottom: 2rem; */
-  /* margin: 1rem 1rem 1rem 1rem; */
-}
+  .Hero h1 {
+    position: relative;
+    word-wrap: break-word;
+    font-size: 6rem;
+    color: #ffffff;
+    /* font-weight:500; */
 
-.Hero h1 {
-  position: relative;
-  word-wrap: break-word;
-  font-size: 6rem;
-  color: #ffffff;
-  /* font-weight:500; */
+    /* margin-top: 1rem; */
+    /* margin: 2rem; */
+  }
 
-  /* margin-top: 1rem; */
-  /* margin: 2rem; */
+  .Hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
+    opacity: 0.25;
+    background-color: rgb(0, 0, 0);
+  }
 
-}
+  .Hero-Buttons button {
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 
-.Hero img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: -10;
-  opacity: 0.4;
-  background-color: black;
-  
-}
+    font-size: 1rem;
+    border-style: none;
+    color: #ffffff;
+    background-color: #088cf8;
+  }
 
-.Hero-Buttons button{
-  padding: 1rem 2rem;
-  border-radius: 4px;
-  /* margin-top: 2rem; */
-
-  font-size: 1rem;
-  border-style: none;
-  color: #ffffff;
-  background-color: #45aafd;
-
-}
-
-
+  .Hero-Buttons button:hover {
+    color: #0063f8;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
 }

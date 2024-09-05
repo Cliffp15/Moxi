@@ -1,0 +1,65 @@
+.Feature-Services-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0rem;
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  /* margin-bottom: 0rem; */
+  background-color: rgb(1, 15, 26);
+}
+
+.Feature-Services {
+  display: flex;
+  color: #ffffff;
+  background-color: rgb(1, 15, 26);
+  width: 79%;
+  margin: auto;
+  padding: 2rem 0rem 2rem 0rem;
+}
+
+.Feature-Services-Header {
+  display: block;
+  color: #ffffff;
+  background-color: rgb(1, 15, 26);
+  margin-right: 2rem;
+  width: 35%;
+  height: auto;
+}
+
+.Feature-Services-Header h2 {
+  font-size: 3rem;
+}
+
+.Feature-Services-Description {
+  display: block;
+  color: #ffffff;
+  background-color: rgb(1, 15, 26);
+  width: 100%;
+  height: auto;
+  font-size: 1.5rem;
+  margin-left: 4rem;
+  /* margin-bottom: 1rem; */
+  /* padding-left: 5rem; */
+}
+
+.Services-Buttons button {
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  /* margin-top: 2rem; */
+  font-weight: 400;
+  font-size: 1rem;
+  border-style: none;
+  margin-top: 2rem;
+
+  /* color: #f5f5f5; */
+  background-color: #ffffff;
+  color: #088cf8;
+}
+
+.Services-Buttons button:hover {
+  color: #ffffff;
+  background-color: #088cf8;
+  cursor: pointer;
+}
