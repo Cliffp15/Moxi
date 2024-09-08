@@ -3,7 +3,7 @@ import lemon from "../Images/Lemon.png";
 
 const ServiceCards = ({ header, paragraph, image }) => {
   return (
-    (image = lemon),
+    // (image = lemon)
     (
       <div>
         <section className="Service-Card-Container">
@@ -16,7 +16,7 @@ const ServiceCards = ({ header, paragraph, image }) => {
               <p>{paragraph} </p>
             <div className="Service-Card-Buttons">
                 <div>
-                  <button>Get Started</button>
+                  <button>Get Started  <span className="arrow">&#8594;</span></button>
                 </div>
               </div>
             </div>

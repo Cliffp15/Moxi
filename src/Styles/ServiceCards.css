@@ -45,7 +45,7 @@
   display: block;
   /* margin-bottom: 2rem; */
   color: rgb(0, 0, 0);
-  font-size: 3rem;
+  font-size: 2rem;
   width: auto;
 }
 
@@ -72,6 +72,20 @@
   cursor: pointer;
 }
 
+.Service-Card-Buttons button:hover .arrow {
+  color: #ffffff;
+  background-color: #088cf8;
+  cursor: pointer;
+}
+
+.arrow{
+  padding: 0rem 0.6rem 0.2rem 0.6rem;
+  color:#088cf8;
+  background-color: #ffffff;
+  margin: 1rem 0rem 5rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
 .Service-Card-Image {
   display: inline-block;
   width: 100%;
@@ -79,8 +93,8 @@
   background-color: #00000000;
   /* margin-left: 2rem; */
   color: white;
-  padding-left: 6rem;
-  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-right: 2rem;
 
   /* border-radius: 2rem; */
 }

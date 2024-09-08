@@ -1,6 +1,8 @@
 import React from "react";
 
-import lemon from "../Images/Lemon.png";
+import setup from "../Images/Productivity_Setup.jpg";
+import food from "../Images/HealthyFood.jpg";
+import career from "../Images/businesswoman-8676522.jpg";
 
 const Features = () => {
   return (
@@ -23,14 +25,15 @@ const Features = () => {
             </p>
           </div>
           <div className="Site-Image">
-            <img className="Feature-img" src={lemon} alt="dog" />
+            <img className="Feature-img" src={setup} alt="dog" />
           </div>
           <div className="Site-Image">
-            <img className="Feature-img" src={lemon} alt="dog" />
+            <img className="Feature-img" src={career} alt="dog" />
           </div>
           <div className="Site-Image">
-            <img className="Feature-img" src={lemon} alt="dog" />
+            <img className="Feature-img" src={food} alt="dog" />
           </div>
+          
         </div>
       </section>
 

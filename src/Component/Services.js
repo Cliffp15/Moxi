@@ -16,7 +16,7 @@ const Services = () => {
             </p>
             <div className="Services-Buttons">
               <div>
-                <button>Get Started</button>
+                <button>Get Started <span className="arrow">&#8594;</span></button>
               </div>
             </div>
           </div>

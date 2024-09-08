@@ -1,5 +1,9 @@
 import React from "react";
 import lemon from "../Images/Lemon.png";
+import fun from "../Images/Fun.jpg";
+import finance from "../Images/Finance.jpg";
+import productivity from "../Images/Productivity.jpg";
+import fitness from "../Images/Fitness.jpg";
 import Features from "../Component/Features";
 import Services from "./Services";
 import ServiceCards from "./ServiceCards";
@@ -18,40 +22,41 @@ function HelloWorld() {
           <img className="Hero-img" src={lemon} alt="dog" />
           <div className="Hero-Buttons">
             <div>
-              <button>Get Started</button>
+              <button>Get Started  <span className="arrow">&#8594;</span></button>
             </div>
           </div>
         </div>
         <Features />
         <Services />
         <ServiceCards
-          header="Productivity"
+          header="Fun"//"Journal,Hobbies, fun events"
           paragraph={
             "We analyze your unique situation and provide a tailored plan to help you achieve your goals"
           }
-          image={"../Images/Lemon.png"}
+          image={fun}
         />
         <ServiceCards
-          header="Goals"
-          paragraph={
-            "Our goal specialists work with you to set and achieve your goals"
-          }
-          image={"../Images/Lemon.png"}
-        />
-
-        <ServiceCards
-          header="Wellness"
+          header="Health"//"Wellness/Health"
           paragraph={
             "We prodvide health and wellness plans to help you stay healthy"
           }
-          image={"../Images/Lemon.png"}
+          image={fitness}
         />
+        <ServiceCards
+          header="Career" //"Goals/Productivity/"
+          paragraph={
+            "Our goal specialists work with you to set and achieve your goals"
+          }
+          image={productivity}
+        />
+
+        
         <ServiceCards
           header="Finance"
           paragraph={
             "We track your spending and provide financial advice to help you save"
           }
-          image={"../Images/Lemon.png"}
+          image={finance}
         />
       </section>
     </div>

@@ -70,4 +70,28 @@
     background-color: #ffffff;
     cursor: pointer;
   }
+
+  .Hero-Buttons button:hover .arrow {
+    padding: 0rem 0.6rem 0.2rem 0.6rem;
+    color: #088cf8;
+    background-color: #ffffff;
+    margin: 1rem 0rem 1rem 0.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .arrow{
+    padding: 0rem 0.6rem 0.2rem 0.6rem;
+    color:#ffffff;
+    background-color: #088cf8;
+    margin: 1rem 0rem 5rem 0.5rem;
+    border-radius: 0.5rem;
+  }
+
+  /* .arrow button:hover{
+    padding: 0rem 0.3rem 0.2rem 0.3rem;
+    color:#ffffff;
+    background-color: #088cf8;
+    margin: 1rem 0rem 1rem 0.5rem;
+    border-radius: 0.5rem;
+  } */
 }
