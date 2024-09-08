@@ -47,7 +47,7 @@ function HelloWorld() {
           image={"../Images/Lemon.png"}
         />
         <ServiceCards
-          header="Finanace"
+          header="Finance"
           paragraph={
             "We track your spending and provide financial advice to help you save"
           }

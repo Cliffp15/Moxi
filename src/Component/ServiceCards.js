@@ -12,9 +12,9 @@ const ServiceCards = ({ header, paragraph, image }) => {
               <h2>
                 {header} <br></br>
               </h2>
-              <hr></hr>
+              {/* <hr></hr> */}
               <p>{paragraph} </p>
-              <div className="Service-Card-Buttons">
+            <div className="Service-Card-Buttons">
                 <div>
                   <button>Get Started</button>
                 </div>
