@@ -18,7 +18,7 @@
     height: auto;
     margin: auto;
     /* margin-top: 1rem; */
-    /* margin-bottom: 2rem; */
+    margin-bottom: 2rem;
     /* margin-top: 50px; */
   }
 
@@ -56,8 +56,8 @@
   .Hero-Buttons button {
     padding: 1rem 2rem;
     border-radius: 4px;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 1rem;
+    /* margin-bottom: 4rem; */
 
     font-size: 1rem;
     border-style: none;

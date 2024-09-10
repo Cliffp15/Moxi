@@ -1,34 +1,60 @@
-.Features-Container {
+:root {
+  --primary-color: #3493a6;
+  --secondary-color: #1fb078;
+  --tertiary-color: #088cf8;
+  --quaternary-color: #1fb078;
+  --quinary-color: #3493a6;
+  --senary-color: #1fb078;
+  --septenary-color: #3493a6;
+  --octonary-color: #1fb078;
+  --nonary-color: #3493a6;
+  --denary-color: #1fb078;
+  --container-background-white: white;
+  --container-background-black: ;
+
+  --features-height: ;
+}
+
+.Features-Section {
   /* display: flex; */ /*keep this out to keep feature section in line with hero section
     /* justify-content: space-between;
     align-items: center; */
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   padding: 2rem 0rem;
   width: 100%;
   margin-bottom: 0rem;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--container-background-white);
+
+  /* background-color: rgb(166, 81, 81); */
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
-.Site-Intro-Section {
+.Features-Container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   width: 79%;
+  height: 100%;
+  
+  /* padding: 3rem ; */
+
   margin: auto;
-  margin-top: 0rem;
-  background-color: rgb(255, 255, 255);
+  /* margin-top: 0rem; */
+  background-color: rgb(150, 203, 26);
 }
 
-.Site-Description {
-  display: block;
+
+.Features-Description {
+  display: inline-block;
   color: #000000;
-  background-color: rgb(255, 255, 255);
-  width: 35%;
-  height: auto;
+  background-color: var(--container-background-white);
+  width: 100%;
+  height: var(--features-height);
+  padding: 2rem 1rem 0rem 0rem;
+
 }
 
-.Site-Description h2 {
+.Features-Description h2 {
   display: block;
   margin-bottom: 2rem;
   font-size: 3rem;
@@ -43,23 +69,38 @@ hr {
   margin-bottom: 2rem;
 }
 
-.Site-Description p {
+.Features-Description p {
   margin-bottom: 2rem;
   font-size: 1.5rem;
 }
 
+
+.Site-Image-Container {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  width: 100%;
+  height: var(--features-height);
+
+
+  /* height: 100%; */
+  background-color: var(--container-background-white);
+
+  /* background-color: #3493a6c3; */
+}
+
 .Site-Image {
   display: block;
-  width: 25%;
-  height: 90%;
-  background-color: #00000000;
-  margin-left: 2rem;
+  width: 100%;
+  height: 100%;
+  background-color: #1fb07800;
+  margin-left: 1rem;
   border-radius: 1rem;
 }
 
 .Feature-img {
   display: flex;
   width: 100%;
-  height: 22rem;
+  height: 100%;
   border-radius: 1rem;
 }
