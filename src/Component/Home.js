@@ -28,38 +28,40 @@ function HelloWorld() {
             </div>
           </div>
         </div>
-        <Features />
-        <Services />
-        <ServiceCards
-          header="Fun" //"Journal,Hobbies, fun events"
-          paragraph={
-            "We analyze your unique situation and provide a tailored plan to help you achieve your goals"
-          }
-          image={fun}
-        />
-        <ServiceCards
-          header="Health" //"Wellness/Health"
-          paragraph={
-            "We prodvide health and wellness plans to help you stay healthy"
-          }
-          image={fitness}
-        />
-        <ServiceCards
-          header="Career" //"Goals/Productivity/"
-          paragraph={
-            "Our goal specialists work with you to set and achieve your goals"
-          }
-          image={productivity}
-        />
-
-        <ServiceCards
-          header="Finance"
-          paragraph={
-            "We track your spending and provide financial advice to help you save"
-          }
-          image={finance}
-        />
       </section>
+
+      <Features />
+      <Services />
+
+      <ServiceCards
+        header="Fun" //"Journal,Hobbies, fun events"
+        paragraph={
+          "We analyze your unique situation and provide a tailored plan to help you achieve your goals"
+        }
+        image={fun}
+      />
+      <ServiceCards
+        header="Health" //"Wellness/Health"
+        paragraph={
+          "We prodvide health and wellness plans to help you stay healthy"
+        }
+        image={fitness}
+      />
+      <ServiceCards
+        header="Career" //"Goals/Productivity/"
+        paragraph={
+          "Our goal specialists work with you to set and achieve your goals"
+        }
+        image={productivity}
+      />
+
+      <ServiceCards
+        header="Finance"
+        paragraph={
+          "We track your spending and provide financial advice to help you save"
+        }
+        image={finance}
+      />
     </div>
   );
 }

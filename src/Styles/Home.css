@@ -6,7 +6,7 @@
     text-align: right;
     padding: 2rem 0rem 0rem 0rem;
     /* width: 79%; */
-    height: auto;
+    height: auto; /*Expand size to 60vh -100vh for larger media queries*/
     margin: auto;
     /* margin-top: 1rem; */
     margin-bottom: 2rem;
@@ -48,7 +48,7 @@
   .Hero-Buttons button {
     padding: 1rem 2rem;
     border-radius: 4px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     /* margin-bottom: 4rem; */
 
     font-size: 1rem;
