@@ -98,6 +98,13 @@
     font-size: 3rem;
     font-weight: bolder;
     color: #000000;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .Navbar-logo a {
+    color: #000000;
+    text-decoration: none;
   }
 
   .Navbar-links {
