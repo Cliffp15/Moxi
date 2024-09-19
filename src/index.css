@@ -6,9 +6,17 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(1, 15, 26);
+  /* background-image: url("./Images/Lemon.png"); */
+  /* background-image-color: rgb(1, 15, 26); */
+  /* background-color: rgb(0, 0, 0); */
   /* margin-bottom: 0rem; */
   /* background-attachment: fixed; */
   /* background: url("./Images/Lemon.png"); */
   /* background-size: cover; */
+}
+
+.Container {
+  max-width: 1480px;
+  margin: auto;
 }

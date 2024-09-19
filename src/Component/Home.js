@@ -11,7 +11,7 @@ import ServiceCards from "./ServiceCards";
 function HelloWorld() {
   return (
     <div>
-      <section>
+      <section className="Container">
         <div className="Hero">
           <h2>
             Welcome to the future of <br></br>living better
@@ -22,21 +22,23 @@ function HelloWorld() {
           <img className="Hero-img" src={lemon} alt="dog" />
           <div className="Hero-Buttons">
             <div>
-              <button>Get Started  <span className="arrow">&#8594;</span></button>
+              <button>
+                Get Started <span className="arrow">&#8594;</span>
+              </button>
             </div>
           </div>
         </div>
         <Features />
         <Services />
         <ServiceCards
-          header="Fun"//"Journal,Hobbies, fun events"
+          header="Fun" //"Journal,Hobbies, fun events"
           paragraph={
             "We analyze your unique situation and provide a tailored plan to help you achieve your goals"
           }
           image={fun}
         />
         <ServiceCards
-          header="Health"//"Wellness/Health"
+          header="Health" //"Wellness/Health"
           paragraph={
             "We prodvide health and wellness plans to help you stay healthy"
           }
@@ -50,7 +52,6 @@ function HelloWorld() {
           image={productivity}
         />
 
-        
         <ServiceCards
           header="Finance"
           paragraph={

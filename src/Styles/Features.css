@@ -11,47 +11,34 @@
   --denary-color: #1fb078;
   --container-background-white: white;
   --container-background-black: ;
-
-  --features-height: ;
+  --alt-black-color: #0d084d;
+  --features-height: 40rem;
 }
 
 .Features-Section {
-  /* display: flex; */ /*keep this out to keep feature section in line with hero section
-    /* justify-content: space-between;
-    align-items: center; */
-  /* margin-top: 4rem; */
+  display: flex; /*keep this out to keep feature section in line with hero section*/
   padding: 2rem 0rem;
   width: 100%;
   margin-bottom: 0rem;
   background-color: var(--container-background-white);
-
-  /* background-color: rgb(166, 81, 81); */
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
 .Features-Container {
   display: flex;
-  /* align-items: center; */
   width: 79%;
   height: 100%;
-  
-  /* padding: 3rem ; */
-
   margin: auto;
-  /* margin-top: 0rem; */
-  background-color: rgb(150, 203, 26);
+  background-color: rgb(255, 255, 255);
 }
-
 
 .Features-Description {
   display: inline-block;
-  color: #000000;
   background-color: var(--container-background-white);
   width: 100%;
   height: var(--features-height);
-  padding: 2rem 1rem 0rem 0rem;
-
+  padding: 0rem 1rem 0rem 0rem;
 }
 
 .Features-Description h2 {
@@ -59,13 +46,26 @@
   margin-bottom: 2rem;
   font-size: 3rem;
   width: auto;
+  color: #0d084d;
+}
+
+.Features-Title {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  width: auto;
+  color: #0d084d;
 }
 
 hr {
   border: none;
   height: 4px;
+  color: #1100f8;
   background-color: #088cf8;
   width: 6rem;
+  height: calc(var(--features-height) / 55);
+
+  /* height: 20px; */
   margin-bottom: 2rem;
 }
 
@@ -74,19 +74,11 @@ hr {
   font-size: 1.5rem;
 }
 
-
 .Site-Image-Container {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
   width: 100%;
   height: var(--features-height);
-
-
-  /* height: 100%; */
   background-color: var(--container-background-white);
-
-  /* background-color: #3493a6c3; */
 }
 
 .Site-Image {

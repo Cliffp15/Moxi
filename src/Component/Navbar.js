@@ -1,8 +1,9 @@
 import React from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div>
+    <div className="Container">
       <div className="Navbar">
         <div className="Navbar-logo"> Moxi</div>
         <ul className="Navbar-links">
