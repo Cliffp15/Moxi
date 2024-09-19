@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./Styles/Navbar.css";
 import "./Styles/Home.css";
-import "./Styles/Features.css";
+// import "./Styles/Features.css";
 import "./Styles/Services.css";
 import "./Styles/ServiceCards.css";
 import App from "./App";

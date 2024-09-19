@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../Styles/Features.css";
 import setup from "../Images/Productivity_Setup.jpg";
 import food from "../Images/HealthyFood.jpg";
 import career from "../Images/businesswoman-8676522.jpg";
