@@ -1,43 +1,41 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="Container">
-      <div className="Navbar">
+      <nav className="Navbar">
         <div className="Navbar-logo"> Moxi</div>
         <ul className="Navbar-links">
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">Fun</a>
+            <Link to="/Fun">Fun</Link>
           </li>
           <li>
-            <a href="#">Health</a>
+            <Link to="/Health">Health</Link>
           </li>
           <li>
-            <a href="#">Career</a>
+            <Link to="/Career">Career</Link>
           </li>
           <li>
-            <a href="#">Finance</a>
+            <Link to="/Finance">Finance</Link>
           </li>
           <li className="Navbar-sign-in">
-            <a href="#">
-              {" "}
-              <span className="Signs">Sign-in</span>
-            </a>
-            {/* <button className="Navbar-sign-in">Sign in</button> */}
+            <span className="Signs">
+              <Link to="/signin">Sign-in</Link>
+            </span>
           </li>
           <li className="Navbar-sign-up">
-            {/* <a href="&">Sign up</a> */}
-
             <button>
-              <span className="Signs">Sign-Up</span>
+              <span className="Signs">
+                <Link to="/signup">Sign-Up</Link>
+              </span>
             </button>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
   );
 }
