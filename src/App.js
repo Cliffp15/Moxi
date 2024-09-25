@@ -1,6 +1,5 @@
 import Home from "./Component/Home";
 import Navbar from "./Component/Navbar";
-import Features from "./Component/Features";
 import Fun from "./Component/Fun";
 import Health from "./Component/Health";
 import Career from "./Component/Career";
