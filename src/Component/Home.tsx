@@ -1,4 +1,3 @@
-// @ts-ignore
 import React from "react";
 import fun from "../Images/Fun.jpg";
 import finance from "../Images/Finance.jpg";

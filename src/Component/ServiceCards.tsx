@@ -1,5 +1,4 @@
 import React from "react";
-import lemon from "../Images/Lemon.png";
 
 interface ServiceCardsProps {
   header: string;
