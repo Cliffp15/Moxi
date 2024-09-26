@@ -1,7 +1,13 @@
 import React from "react";
 import lemon from "../Images/Lemon.png";
 
-const ServiceCards = ({ header, paragraph, image }) => {
+interface ServiceCardsProps {
+  header: string;
+  paragraph: string;
+  image: string;
+}
+
+const ServiceCards: React.FC<ServiceCardsProps> = ({ header, paragraph, image }) => {
   return (
     // (image = lemon)
     <div>

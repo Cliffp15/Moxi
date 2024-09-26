@@ -4,7 +4,7 @@ import setup from "../Images/Productivity_Setup.jpg";
 import food from "../Images/HealthyFood.jpg";
 import career from "../Images/businesswoman-8676522.jpg";
 
-const Features = () => {
+const Features: React.FC = () => {
   return (
     <div>
       <section className="Features-Section">

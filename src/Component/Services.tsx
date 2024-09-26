@@ -1,6 +1,6 @@
 import React from "react";
-
-const Services = () => {
+// @ts-ignore
+const Services: React.FC = () => {
   return (
     <div>
       <section className="Feature-Section">
