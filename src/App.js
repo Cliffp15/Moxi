@@ -17,13 +17,6 @@ function App() {
         <Route path="/Career" element={<Career />}></Route>
         <Route path="/Finance" element={<Finance />}></Route>
       </Routes>
-      {/* <Route path="/Fun" component={Fun} />
-      <Route path="/Health" component={Health} />
-      <Route path="/Career" component={Career} />
-      <Route path="/Finance" component={Finance} /> */}
-
-      {/* <Home /> */}
-      {/* <Features /> */}
     </div>
   );
 }

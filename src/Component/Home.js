@@ -7,6 +7,7 @@ import fitness from "../Images/Fitness.jpg";
 import Features from "../Component/Features";
 import Services from "./Services";
 import ServiceCards from "./ServiceCards";
+import Counter from "./Counter";
 
 function HelloWorld() {
   return (
@@ -31,6 +32,7 @@ function HelloWorld() {
       </section>
 
       <Features />
+      <Counter />
       <Services />
 
       <ServiceCards

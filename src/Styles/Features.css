@@ -68,12 +68,10 @@
 hr {
   border: none;
   height: 4px;
-  color: #1100f8;
-  background-color: #088cf8;
+  color: #0057f8;
+  background-color: #0848f8;
   width: 6rem;
   height: calc(var(--features-height) / 55);
-
-  /* height: 20px; */
   margin-bottom: 2rem;
 }
 
