@@ -26,13 +26,13 @@ function Navbar() {
           </li>
           <li className="Navbar-sign-in">
             <span className="Signs">
-              <Link to="/signin">Sign-in</Link>
+              <Link to="/Sign-In">Sign-in</Link>
             </span>
           </li>
           <li className="Navbar-sign-up">
             <button>
               <span className="Signs">
-                <Link to="/SignUp">Sign-Up</Link>
+                <Link to="/Sign-Up">Sign-Up</Link>
               </span>
             </button>
           </li>
