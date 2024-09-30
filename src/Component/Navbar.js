@@ -32,7 +32,7 @@ function Navbar() {
           <li className="Navbar-sign-up">
             <button>
               <span className="Signs">
-                <Link to="/signup">Sign-Up</Link>
+                <Link to="/SignUp">Sign-Up</Link>
               </span>
             </button>
           </li>
