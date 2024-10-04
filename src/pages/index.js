@@ -7,11 +7,13 @@ import Features from "../Component/Features";
 import Services from "../Component/Services";
 import ServiceCards from "../Component/ServiceCards";
 // import lemon from "../Images/lemon.jpg";
+import Navbar from "../Component/Navbar";
 import Image from "next/image";
 
 function HelloWorld() {
   return (
     <div>
+      <Navbar />
       <section className="Container">
         <div className="Hero">
           <h2>
