@@ -1,9 +1,15 @@
 import React from "react";
-import "../Styles/Features.css";
+// import "../Styles/Features.css";
 import setup from "../Images/Productivity_Setup.jpg";
 import food from "../Images/HealthyFood.jpg";
 import career from "../Images/businesswoman-8676522.jpg";
+import  Image  from "next/image";
 
+
+export interface ILogo {
+
+
+}
 const Features: React.FC = () => {
   return (
     <div>
@@ -35,13 +41,13 @@ const Features: React.FC = () => {
             </div>
             <div className="Site-Image-Container">
               <div className="Site-Image">
-                <img className="Feature-img" src={setup} alt="dog" />
+                <Image className="Feature-img" src={setup} alt="dog" />
               </div>
               <div className="Site-Image">
-                <img className="Feature-img" src={career} alt="dog" />
+                <Image className="Feature-img" src={career} alt="dog" />
               </div>
               <div className="Site-Image">
-                <img className="Feature-img" src={food} alt="dog" />
+                <Image className="Feature-img" src={food} alt="dog" />
               </div>
             </div>
           </div>

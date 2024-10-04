@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+
 
 interface ServiceCardsProps {
   header: string;
@@ -28,7 +30,7 @@ const ServiceCards: React.FC<ServiceCardsProps> = ({ header, paragraph, image })
               </div>
             </div>
             <div className="Service-Card-Image">
-              <img className="Service-img" src={image} alt="dog" />
+              <Image className="Service-img" src={image} alt="dog" />
             </div>
           </div>
         </div>

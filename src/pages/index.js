@@ -5,13 +5,9 @@ import productivity from "../Images/Productivity.jpg";
 import fitness from "../Images/Fitness.jpg";
 import Features from "../Component/Features";
 import Services from "../Component/Services";
-import ServiceCards from  "../Component/ServiceCards";
-import lemon from "../Images/lemon.jpg";
+import ServiceCards from "../Component/ServiceCards";
+// import lemon from "../Images/lemon.jpg";
 import Image from "next/image";
-
-
-
-
 
 function HelloWorld() {
   return (
@@ -19,12 +15,12 @@ function HelloWorld() {
       <section className="Container">
         <div className="Hero">
           <h2>
-            Welcome teo the future of <br></br>living better
+            Welcome to the future of <br></br>living better
           </h2>
           <h1>
             Organize <br></br>Your Life <br></br>Better
           </h1>
-          <Image className="Hero-img" src={lemon} alt="dog" />
+          {/* <Image className="Hero-img" src={lemon} alt="dog" /> */}
           <div className="Hero-Buttons">
             <div>
               <button>
@@ -44,30 +40,30 @@ function HelloWorld() {
           "We analyze your unique situation and provide a tailored plan to help you achieve your goals"
         }
         image={fun}
-      /> */}
-      {/* <ServiceCards
+      />
+      <ServiceCards
         header="Health" 
         paragraph={
           "We prodvide health and wellness plans to help you stay healthy"
         }
         image={fitness}
-      /> */}
-      {/* <ServiceCards
+      />
+      <ServiceCards
         header="Career" 
         paragraph={
           "Our goal specialists work with you to set and achieve your goals"
         }
-        Image={productivity}
-      /> */}
+        image={productivity}
+      />
 
-      {/* <ServiceCards
+      <ServiceCards
         header="Finance"
         paragraph={
           "We track your spending and provide financial advice to help you save"
         }
-        Image={finance}
-      />*/}
-    </div> 
+        image={finance}
+      /> */}
+    </div>
   );
 }
 
